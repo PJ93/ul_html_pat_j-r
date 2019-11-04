@@ -35,6 +35,11 @@ body{
     width: 640px;
     height: 360px;
 }
+@media (max-width:705px){
+    .gameimage{
+        display:none;
+    }
+}
 
 footer{
     position: relative;
