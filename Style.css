@@ -10,9 +10,10 @@ html  {
 
 body{
 	width: 100%;
-	padding-top: 80px;
+    padding-top: 65px;
 	margin-left: 0;
-	margin-right: 0;
+    margin-right: 0;
+    
 }
 
 
@@ -23,17 +24,17 @@ body{
     margin-right: auto;
     text-align: center;
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.gameimage{
+    width: 640px;
+    height: 360px;
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
-    background-color: #f5f5f5;
+    background-color: #ff0808;
+    margin-top: 50px;
    
   }
 
@@ -60,7 +61,10 @@ footer{
     background: #007bb5;
     color: white;
 } 
-
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
 
 
 

@@ -19,10 +19,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+<nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/mojang_logo.png" width="30" height="30"
-                    alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="images/mojang_logo.png" width="30" height="30" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,35 +37,16 @@
                         <a class="nav-link" href=Gallery.html>Games</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href=about.html>About</a>
-                    </li>
+						<a class="nav-link" href=about.html>About</a>
+					</li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5 col-offset-sm-7">
-                <div id="contact" class="form-group">
-                    <form action="contactform.php" method="GET">
-
-
-                        <h1>Contact Us</h1>
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="usr">
-                        <label for="email">Email:</label>
-                        <input type="text" class="form-control" id="usr">
-                        <label for="comment">Text:</label>
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+    <div class="center">
+    Thanks.<br>
+    We've recived your question and will reply as fast as we can.
     </div>
-
-
 
 
 
@@ -82,7 +62,7 @@
             <a href="https://www.youtube.com/channel/UC1sELGmy5jp5fQUugmuYlXQ" class="fa fa-youtube"></a>
         </div>
         <div class="container text-center">
-            © Mojang AB 2019
+        © Mojang AB 2019
         </div>
         <div class="container text-center">
             <iframe
@@ -90,6 +70,7 @@
                 width="300" height="90" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
     </footer>
-</body>
 
-</html>
+
+</body>
+</html> 
